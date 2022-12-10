@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin: 28px 48px 24px;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: 64px 16px 24px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
