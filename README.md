@@ -8,6 +8,7 @@
 **Интро**
 
 Учебный проект о путешествии по России. Реализована адаптивная верстка.
+
 Ссылка на Github Pages: https://rpoltorakov.github.io/russian-travel/
 
 
