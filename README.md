@@ -19,4 +19,5 @@
 **Технологии**
 
 *pure HTML + CSS*
+
 В CSS использованы: flexbox, grid, media-query.

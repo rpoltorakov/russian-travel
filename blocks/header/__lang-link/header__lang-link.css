@@ -4,7 +4,9 @@
     text-decoration: none;
     color: white;
 }
-
 .header__lang-link:nth-of-type(1) {
     text-decoration: underline;
+}
+.header__lang-link:hover {
+    opacity: 0.8;
 }
