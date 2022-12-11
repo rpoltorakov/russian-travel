@@ -6,8 +6,6 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  justify-self: center;
-  align-self: flex-end;
   opacity: 1;
   z-index: 1;
 }
