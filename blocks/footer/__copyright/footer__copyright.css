@@ -10,8 +10,7 @@
 .footer__copyright:last-child {
   margin-left: auto;
 }
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer__copyright:last-child {
     margin-left: 0;
   }
