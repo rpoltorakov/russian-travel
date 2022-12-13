@@ -1,4 +1,22 @@
 .place__image {
-  max-width: 460px;
   width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .place__image {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    width: 100%;
+  }
 }

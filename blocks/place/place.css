@@ -3,31 +3,32 @@
   margin: 80px 0 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
+  /* grid-template-rows: repeat(auto-fit, minmax(46px, max-content)); */
   row-gap: 48px;
   column-gap: 40px;
 }
 
-.place:nth-of-type(1) {
-  margin: 0 0 0;
+.place:first-of-type {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    margin: 80px 48px 0;
+    margin-top: 80px;
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    margin: 73px 24px 0;
+    margin-top: 73px;
     column-gap: 28px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
-    margin: 50px 0 0;
+    margin-top: 50px;
     max-width: 100%;
     row-gap: 32px;
   }
