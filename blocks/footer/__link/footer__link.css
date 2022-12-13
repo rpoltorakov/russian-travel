@@ -7,12 +7,15 @@
   line-height: 18px;
   margin: 0 0 0 18px;
 }
+
 .footer__link:hover {
   opacity: 0.8;
 }
+
 .footer__link:first-of-type {
   margin: 0;
 }
+
 @media screen and (max-width: 767px) {
   .footer__link {
     font-size: 24px;

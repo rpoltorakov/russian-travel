@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   gap: 18px;
 }
+
 @media screen and (max-width: 767px) {
   .footer {
     margin: 64px 16px 24px;

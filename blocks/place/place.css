@@ -13,17 +13,18 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    max-width: calc(100% - 48px * 2);
+    margin: 80px 48px 0;
     column-gap: 32px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .place {
-    margin: 73px 0 0;
-    max-width: calc(100% - 24px * 2);
+    margin: 73px 24px 0;
     column-gap: 28px;
   }
 }
+
 @media screen and (max-width: 320px) {
   .place {
     margin: 50px 0 0;

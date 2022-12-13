@@ -1,6 +1,6 @@
 .header__lang-links {
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
-    align-items: end;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: end;
 }

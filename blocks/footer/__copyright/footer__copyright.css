@@ -7,9 +7,11 @@
   padding: 0 0 0 0;
   justify-self: flex-end;
 }
+
 .footer__copyright:last-child {
   margin-left: auto;
 }
+
 @media screen and (max-width: 767px) {
   .footer__copyright:last-child {
     margin-left: 0;
