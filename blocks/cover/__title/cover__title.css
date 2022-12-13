@@ -9,6 +9,14 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 550px) {
+  .cover__title {
+    max-width: 440px;
+    font-size: 44px;
+    line-height: 46px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 250px;
